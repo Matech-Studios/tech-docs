@@ -15,12 +15,15 @@ At the moment of starting this solution, the StarvApp already has an architectur
 
 In addition, a database of recipes and ingredients was implemented and checked to ensure the available fields are enough to implement a recommendations schema. No data about users behavior was available, so the scope for the recommendations was focused on matching recipes and ingredients information.
 
+!!! info
+    Data source of recipes was changed during the project due to quality issued found. See [Chapter 3](3_executiong.md) for more details. 
+
 The stakeholders involved in this development are mainly the Product Owner of the application and the teams that develop the other services:  
 
-- Frontend team, in charge of the UI and the UX of the application.  
-- Backend team, in charge of the services of the application (endpoints, database, integrations).  
-- Analytics team (which develops this service), in charge of extracting data analytics to enrich the information presented to the user.  
-- DevOps team, in charge of the infrastructure where the application is deployed.  
+- **Frontend team**, in charge of the UI and the UX of the application.  
+- **Backend team**, in charge of the services of the application (endpoints, database, integrations).  
+- **Analytics team** (which develops this service), in charge of extracting data analytics to enrich the information presented to the user.  
+- **DevOps team**, in charge of the infrastructure where the application is deployed.  
 
 Finally, the application will be in Spanish language to allow a deployment in Argentina. Therefore, the text information to process will be in that language.
 
@@ -40,10 +43,8 @@ In order to understand the expected matching of recipes to have in this service,
 - Preference for few but accurate recommendations rather than selecting best recipes from a list through filters.
 - Recommender should be fast.
 
-For more details about the design of the poll, you can check the [How-To: Poll to Collect Requirements](how-to/poll_requirements.md) document.
-
 !!! tip
-    Ensure this poll is filled by stakeholders from different perspectives, even outside the project if possible, to ensure there are opinions biased by the project flow.
+    Ensure this poll is filled by stakeholders from different perspectives, even outside the project's team if possible, to ensure there are opinions biased by the project flow.
 
 ## Definitions
 

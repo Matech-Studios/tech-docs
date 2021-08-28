@@ -1,8 +1,7 @@
-site_name: "Matech Studios - Playbook: Recipes Recommender" 
-site_url: https://github.com/Matech-Studios/tech_docs/
+site_name: "Matech Studios - Playbook: Recipes Recommender"
 site_author: "Matech Studios"
 copyright: Copyright &copy; 2020 - 2021 Matech Studios
-site_url: https://github.com/Matech-Studios
+site_url: https://github.com/Matech-Studios/tech_docs/
 
 theme:
     name: material
@@ -79,6 +78,4 @@ pages:
     - 'Chapter 4: Acceptance': '4_acceptance.md'
     - 'Epilogue': '5_epilogue.md'
 - How-To Guides:
-    - 'Poll to Collect Requirements': 'how-to/poll_requirements.md'
     - 'Data Quality Control': 'how-to/data_quality_control.md'
-    - 'Asynchronous Service with aio-pika': 'how-to/service_aio-pika.md'
