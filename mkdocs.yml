@@ -1,29 +1,81 @@
-site_name: Matech Studios - OCTO
+site_name: "Matech Studios - Playbook: Recipes Recommender"
+site_author: "Matech Studios"
+copyright: Copyright &copy; 2020 - 2021 Matech Studios
 site_url: https://github.com/Matech-Studios/tech_docs/
-site_description: Matech Studios presents "Office of the CTO"   
-site_author: Facundo Ortiz
 
-#nav:
-#    - Home: index.md
-#    - About: about.md
-#    - 'Technical Doctrine': first_principles/firsts.md
-#    - 'Confluence': 'https://matech.atlassian.net/wiki/spaces/MATECH/pages' 
-
-theme: 
+theme:
     name: material
-    favicon: img/favicon.ico
-    features: 
-        - tabs
-    palette:
-        scheme: preference # 'default' for light or 'slate' for dark
-        primary: indigo
-        accent: green  
 
-# [update as needed] specify the URL to the GitHub repo for this site - included as link top right. URL must end with /
-repo_url: https://github.com/Matech-Studios/tech_docs
-# [update as needed] specify the text for repo link - included as link top right
-repo_name: 'GitHub Matech'
-# specify the relative path to markdown files in GitHub repo - typically does not need to be updated
-# [update as needed] provides an edit link for each markdown page in site to make contribution to content easier
-edit_uri: tree/master/docs/
-# specify any links you want to include at right of footer
+    palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      accent: black
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: black
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+    # Matech logo
+    logo: img/matech.png
+    favicon: img/matech.png
+
+    # Font
+    font:
+      text: Roboto
+
+    # Navigation
+    features:
+      # - navigation.sections
+      - navigation.instant
+      - navigation.tabs
+      - navigation.top
+      - toc.integrate
+
+# Features about format
+markdown_extensions:
+  - admonition
+  - footnotes
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.smartsymbols
+  - attr_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - toc:
+      permalink: true
+
+# Added plugins
+plugins:
+  - search
+
+# Footer
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Matech-Studios
+  version:
+    provider: mike
+
+# Structure
+pages:
+- Home: 'README.md'
+- Contents:
+    - 'Preface': '0_preface.md'
+    - 'Chapter 1: Understanding': '1_understanding.md'
+    - 'Chapter 2: Preparation': '2_preparation.md'
+    - 'Chapter 3: Execution': '3_execution.md'
+    - 'Chapter 4: Acceptance': '4_acceptance.md'
+    - 'Epilogue': '5_epilogue.md'
+- How-To Guides:
+    - 'Data Quality Control': 'how-to/data_quality_control.md'
