@@ -11,10 +11,10 @@
         <meta name="author" content="Matech Studios">
       
       
-        <link rel="canonical" href="https://github.com/Matech-Studios/2_preparation/">
+        <link rel="canonical" href="https://github.com/Matech-Studios/tech_docs/2_preparation/">
       
       <link rel="icon" href="../img/matech.png">
-      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.3">
+      <meta name="generator" content="mkdocs-1.2.2, mkdocs-material-7.2.5">
     
     
       
@@ -22,10 +22,10 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.e35208c4.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.be71726b.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.ef6f36e2.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.3f5d1f46.min.css">
         
       
     
@@ -42,6 +42,8 @@
     
     
       
+
+
     
     
   </head>
@@ -107,7 +109,7 @@
         
           
           
-          <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="black" type="radio" name="__palette" id="__palette_1">
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="black"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
           
             <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 10a2 2 0 0 1 2 2 2 2 0 0 1-2 2 2 2 0 0 1-2-2 2 2 0 0 1 2-2m10-3a5 5 0 0 1 5 5 5 5 0 0 1-5 5H7a5 5 0 0 1-5-5 5 5 0 0 1 5-5h10M7 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3h10a3 3 0 0 0 3-3 3 3 0 0 0-3-3H7z"/></svg>
@@ -116,7 +118,7 @@
         
           
           
-          <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="black" type="radio" name="__palette" id="__palette_2">
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="black"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
           
             <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3z"/></svg>
@@ -135,14 +137,18 @@
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
       <label class="md-search__icon md-icon" for="__search">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
       </label>
-      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
-      </button>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
     </form>
     <div class="md-search__output">
       <div class="md-search__scrollwrap" data-md-scrollfix>
@@ -209,7 +215,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../how-to/poll_requirements/" class="md-tabs__link">
+      <a href="../how-to/data_quality_control/" class="md-tabs__link">
         How-To Guides
       </a>
     </li>
@@ -351,40 +357,6 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#approach" class="md-nav__link">
-    Approach
-  </a>
-  
-    <nav class="md-nav" aria-label="Approach">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#assumptions" class="md-nav__link">
-    Assumptions
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#idea" class="md-nav__link">
-    Idea
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#metrics" class="md-nav__link">
-    Metrics
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#architecture" class="md-nav__link">
     Architecture
   </a>
@@ -409,13 +381,6 @@
           <li class="md-nav__item">
   <a href="#environment" class="md-nav__link">
     Environment
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#continuous-integration" class="md-nav__link">
-    Continuous Integration
   </a>
   
 </li>
@@ -504,32 +469,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../how-to/poll_requirements/" class="md-nav__link">
-        Poll to Collect Requirements
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../how-to/data_quality_control/" class="md-nav__link">
         Data Quality Control
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../how-to/service_aio-pika/" class="md-nav__link">
-        Asynchronous Service with aio-pika
       </a>
     </li>
   
@@ -557,45 +498,8 @@
                 <h1 id="chapter-2-preparation">Chapter 2: Preparation<a class="headerlink" href="#chapter-2-preparation" title="Permanent link">&para;</a></h1>
 <div class="admonition abstract">
 <p class="admonition-title">Abstract</p>
-<p>This chapter covers the preparation in terms of the approach and architecture defined for the solution, as well as the setup of the development environment. (<strong>5 min read</strong>)</p>
+<p>This chapter covers the preparation in terms of the architecture defined for the solution, as well as the setup of the development environment. (<strong>4 min read</strong>)</p>
 </div>
-<h2 id="approach">Approach<a class="headerlink" href="#approach" title="Permanent link">&para;</a></h2>
-<!-- Document the approach taken to develop the solution based on the defined requirements and knowledge about the project -->
-
-<p>Based on the available data, the decision was to start with a simple approach of basic scoring, in order to accelerate integration and collect early feedback to justify the need for a more complex approach</p>
-<div class="admonition tip">
-<p class="admonition-title">Tip</p>
-<p>Following the <a href="https://en.wikipedia.org/wiki/KISS_principle">KISS principle</a>, it is suggested to always start with a very simple approach (even if it is not Machine Learning), and once it is implemented you can collect feedback and data about usage and then refine it.</p>
-</div>
-<h3 id="assumptions">Assumptions<a class="headerlink" href="#assumptions" title="Permanent link">&para;</a></h3>
-<p>This approach was elaborated taken into account these restrictions and considerations</p>
-<ul>
-<li>
-<p>This approach is intended for a <a href="https://medium.com/yusp/the-cold-start-problem-for-recommender-systems-89a76505a7">"cold start"</a>, where no users history is available</p>
-<ul>
-<li>Therefore, recommendations are obtained only based on the recipes information, not from users</li>
-</ul>
-</li>
-<li>
-<p>Assuming that available recipes are received from input</p>
-</li>
-</ul>
-<h3 id="idea">Idea<a class="headerlink" href="#idea" title="Permanent link">&para;</a></h3>
-<p>In this "naive" approach, the idea is to get the recipes with best score based on the following aspects:</p>
-<ul>
-<li>Matching of ingredients entered</li>
-<li>Ratings of recipes</li>
-<li>Cooking time required</li>
-</ul>
-<p>By tuning the score functions of these aspects, as well as the way to aggregate them, we could have a very quick way to select the best recipes to recommend, in order to be able to start the integration with other services and then have the structure needed to try a better approach.</p>
-<h3 id="metrics">Metrics<a class="headerlink" href="#metrics" title="Permanent link">&para;</a></h3>
-<p>In order to assess if a set of recommended recipes is appropriate for a set of entered ingredients, these are the aspects to be evaluated:</p>
-<ul>
-<li>Quality of matched ingredients, by checking average matching ratio of ingredients &gt; 0.5 </li>
-<li>Popularity of recipes, by checking average rating &gt; 4.0</li>
-<li>Complexity of recipes, by checking average cooking time &lt; 60</li>
-</ul>
-<p>More details about approach in <a href="https://github.com/Matech-Studios/starvapp_recipes_recommender/blob/main/notebooks/20201228_basic_approach_scores.ipynb">this Jupyter notebook</a>.</p>
 <h2 id="architecture">Architecture<a class="headerlink" href="#architecture" title="Permanent link">&para;</a></h2>
 <!-- Describe the architecture of the solution, including diagrams and proper details to understand the workflows at high level -->
 
@@ -616,7 +520,7 @@
 <!-- Describe all the needed steps to setup a proper development environment -->
 
 <h4 id="code-repository">Code Repository<a class="headerlink" href="#code-repository" title="Permanent link">&para;</a></h4>
-<p>At this moment of the project, we didn't have a proper scaffolding nor boilerplate to setup the code repository. Therefore, a new repository was started from scratch, taking into account:</p>
+<p>At this moment of the project, we didn't have a proper scaffolding nor boilerplate to setup the code repository. Therefore, a new repository was started from scratch, where the following aspects were solved to start the development:</p>
 <ul>
 <li>Repository name following the name convention followed in Matech, so it was named <code>Matech.Starvapp.RecipesRecomender.Analytics</code>.</li>
 <li>A Python package to develop the actual logic to process the data</li>
@@ -624,8 +528,11 @@
 <li>A folder to place the notebooks intended for exploration and checks</li>
 <li>A folder to develop the tests for the solution at <em>unit</em> and <em>system</em> level</li>
 <li>A folder for development tools (e.g. run linter, set environment, run tests)</li>
+<li>README.md file with relevant information</li>
+<li>Environment management through <a href="https://virtualenv.pypa.io/en/latest/">virtualenv</a></li>
+<li>Testing handled with <a href="https://docs.pytest.org/">pytest</a></li>
 </ul>
-<p>The repository was published <a href="https://github.com/Matech-Studios/Matech.Starvapp.RecipesRecomender.Analytics">here</a>. You can check how the initial structure was defined in <a href="https://github.com/Matech-Studios/Matech.Starvapp.RecipesRecomender.Analytics/pull/1">this Pull Request</a>, obtaining this:</p>
+<p>The repository was published <a href="https://github.com/Matech-Studios/Matech.Starvapp.RecipesRecomender.Analytics">here</a>. You can check how the initial structure was defined in <a href="https://github.com/Matech-Studios/Matech.Starvapp.RecipesRecomender.Analytics/pull/1">the Pull Request #1</a>, obtaining this:</p>
 <pre><code>  ├── README.md              &lt;- The top-level README for developers using this project
   │      
   ├── starvapprecom          &lt;- Core package of this project.
@@ -655,15 +562,19 @@
 <li>A <code>docker-compose.yml</code> to configure the connection between these two previous services, for testing purposes.</li>
 </ul>
 <p>In addition, to allow an easy way to make local development, there are tools to create and use a <a href="https://pypi.org/project/virtualenv/">virtualenv</a> which is easier to handle for local tests.</p>
-<p>You can check both configurations in the actual code repository.</p>
-<h4 id="continuous-integration">Continuous Integration<a class="headerlink" href="#continuous-integration" title="Permanent link">&para;</a></h4>
-<p>The StarvApp has a Continuous Integration (CI) pipeline configured and handled by the DevOps team, so the CI is already managed in this work and the files explained in the Environment section are the contract to ensure correct integration. However, additionally a Github Actions workflow was configured for this repository to make the following checks:</p>
+<p>Given that, the development evolved from the explained "boilerplate" to then create the <a href="https://github.com/Matech-Studios/Matech.Starvapp.RecipesRecomender.Analytics/pull/2">PR #2</a>, where the following aspects were solved:</p>
 <ul>
-<li>Smoke testing based on configured tests </li>
-<li>Code coverage along the releases</li>
-<li>Correct linting  </li>
+<li>File <code>Dockerfile</code> to build and serve the application</li>
+<li>File <code>docker-compose.yml</code> to test quickly a deployment before delivering the application</li>
+<li>Service developed to connect to a <a href="https://www.rabbitmq.com/">RabbitMQ</a> queue and serve recipes recommendations</li>
 </ul>
-<p>You can check the configuration and current status in the project's README.</p>
+<p>After that, the development proceed to enhance and fix some aspects, but in the <a href="https://github.com/Matech-Studios/Matech.Starvapp.RecipesRecomender.Analytics/pull/7">PR #7</a> the repository evolved to have these aspects done:</p>
+<ul>
+<li>Github Actions to keep an internal Continuous Integration</li>
+<li>Azure Pipelines connection to serve this repo in the flow of Continuous Integration of the entire StarvApp</li>
+<li>Testing to ensure code coverage during the CI workflows</li>
+</ul>
+<p>You can check these configurations in the actual code repository.</p>
                 
               
               
@@ -677,6 +588,7 @@
         
           <a href="#" class="md-top md-icon" data-md-component="top" data-md-state="hidden">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"/></svg>
+            Back to top
           </a>
         
       </main>
@@ -686,7 +598,8 @@
   
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
-        <a href="../1_understanding/" class="md-footer__link md-footer__link--prev" rel="prev">
+        
+        <a href="../1_understanding/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Chapter 1: Understanding" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -701,7 +614,8 @@
         </a>
       
       
-        <a href="../3_execution/" class="md-footer__link md-footer__link--next" rel="next">
+        
+        <a href="../3_execution/" class="md-footer__link md-footer__link--next" aria-label="Next: Chapter 3: Execution" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
@@ -753,10 +667,10 @@
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.tabs", "navigation.top", "toc.integrate"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../assets/javascripts/workers/search.fe42c31b.min.js", "version": {"provider": "mike"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.tabs", "navigation.top", "toc.integrate"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../assets/javascripts/workers/search.409db549.min.js", "version": {"provider": "mike"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.4ea5477f.min.js"></script>
+      <script src="../assets/javascripts/bundle.56a63758.min.js"></script>
       
     
   </body>

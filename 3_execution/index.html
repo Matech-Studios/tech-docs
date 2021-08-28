@@ -11,10 +11,10 @@
         <meta name="author" content="Matech Studios">
       
       
-        <link rel="canonical" href="https://github.com/Matech-Studios/3_execution/">
+        <link rel="canonical" href="https://github.com/Matech-Studios/tech_docs/3_execution/">
       
       <link rel="icon" href="../img/matech.png">
-      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.3">
+      <meta name="generator" content="mkdocs-1.2.2, mkdocs-material-7.2.5">
     
     
       
@@ -22,10 +22,10 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.e35208c4.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.be71726b.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.ef6f36e2.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.3f5d1f46.min.css">
         
       
     
@@ -42,6 +42,8 @@
     
     
       
+
+
     
     
   </head>
@@ -107,7 +109,7 @@
         
           
           
-          <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="black" type="radio" name="__palette" id="__palette_1">
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="black"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
           
             <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 10a2 2 0 0 1 2 2 2 2 0 0 1-2 2 2 2 0 0 1-2-2 2 2 0 0 1 2-2m10-3a5 5 0 0 1 5 5 5 5 0 0 1-5 5H7a5 5 0 0 1-5-5 5 5 0 0 1 5-5h10M7 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3h10a3 3 0 0 0 3-3 3 3 0 0 0-3-3H7z"/></svg>
@@ -116,7 +118,7 @@
         
           
           
-          <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="black" type="radio" name="__palette" id="__palette_2">
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="black"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
           
             <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3z"/></svg>
@@ -135,14 +137,18 @@
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
       <label class="md-search__icon md-icon" for="__search">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
       </label>
-      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
-      </button>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
     </form>
     <div class="md-search__output">
       <div class="md-search__scrollwrap" data-md-scrollfix>
@@ -209,7 +215,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../how-to/poll_requirements/" class="md-tabs__link">
+      <a href="../how-to/data_quality_control/" class="md-tabs__link">
         How-To Guides
       </a>
     </li>
@@ -363,36 +369,90 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#development" class="md-nav__link">
-    Development
+  <a href="#initial-analysis" class="md-nav__link">
+    Initial analysis
   </a>
   
-    <nav class="md-nav" aria-label="Development">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#new-data-source" class="md-nav__link">
+    New data source
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ingredients-classification" class="md-nav__link">
+    Ingredients classification
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recommender-approach" class="md-nav__link">
+    Recommender approach
+  </a>
+  
+    <nav class="md-nav" aria-label="Recommender approach">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#data-analysis" class="md-nav__link">
-    Data Analysis
+  <a href="#approach-1-basic-scores" class="md-nav__link">
+    Approach 1: Basic Scores
+  </a>
+  
+    <nav class="md-nav" aria-label="Approach 1: Basic Scores">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#idea" class="md-nav__link">
+    Idea
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#modeling" class="md-nav__link">
-    Modeling
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#service" class="md-nav__link">
-    Service
+  <a href="#metrics" class="md-nav__link">
+    Metrics
   </a>
   
 </li>
         
       </ul>
     </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#approach-2-weight-ingredients" class="md-nav__link">
+    Approach 2: Weight Ingredients
+  </a>
+  
+    <nav class="md-nav" aria-label="Approach 2: Weight Ingredients">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#idea_1" class="md-nav__link">
+    Idea
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#service-development" class="md-nav__link">
+    Service development
+  </a>
   
 </li>
       
@@ -477,32 +537,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../how-to/poll_requirements/" class="md-nav__link">
-        Poll to Collect Requirements
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../how-to/data_quality_control/" class="md-nav__link">
         Data Quality Control
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../how-to/service_aio-pika/" class="md-nav__link">
-        Asynchronous Service with aio-pika
       </a>
     </li>
   
@@ -530,49 +566,128 @@
                 <h1 id="chapter-3-execution">Chapter 3: Execution<a class="headerlink" href="#chapter-3-execution" title="Permanent link">&para;</a></h1>
 <div class="admonition abstract">
 <p class="admonition-title">Abstract</p>
-<p>This chapter covers the execution of the work based on the previous definitions done, in terms of developing, testing, and validating the solutions based on the agreed acceptance criteria. (<strong>X min read</strong>)</p>
+<p>This chapter covers the execution of the work based on the previous definitions done, in terms of developing, testing, and validating the solutions based on the agreed acceptance criteria. (<strong>10 min read</strong>)</p>
 </div>
-<h2 id="development">Development<a class="headerlink" href="#development" title="Permanent link">&para;</a></h2>
-<!-- Describe all the work done to develop the code for the solution, using proper sections based on the methodology implemented -->
+<h2 id="initial-analysis">Initial analysis<a class="headerlink" href="#initial-analysis" title="Permanent link">&para;</a></h2>
+<p>Once the repository was prepared, and the initial requirements were defined, we should start from the analysis of the available data to check the following aspects:
+- Available information to be used for the recommender schema
+- Quality of data, and corrections to be done
+- Pre-processing steps required to use the data</p>
+<p>The first data source implemented was <a href="https://spoonacular.com/">Spoonacular</a> through a paid subscription to <a href="https://rapidapi.com/">RapidAPI</a>. Since the involved recipes were in English, a translator service was implemented as well to have Spanish data. </p>
+<p>In order to ensure the database of recipes and ingredients as proper quality to implement the given approach, a Data Quality Control was conducted. Check the <a href="../how-to/data_quality_control/">How-to: Data Quality Control</a> document for details. Through <a href="https://github.com/Matech-Studios/Matech.Starvapp.RecipesRecomender.Analytics/blob/main/notebooks/20210130_data_quality_control.ipynb">this notebook</a>, the analysis was done where in general aspects the data observed was fine. However, at that point and in later iterations there were data issues found like:
+- Thousands of ingredients, making hard to achieve proper matching rules for the recommender (check <a href="https://github.com/Matech-Studios/Matech.Starvapp.RecipesRecomender.Analytics/blob/develop/notebooks/ingredients_issues.yml">these issues identified</a>)
+- Bad translations of the implemented service (also noticed in the previous issues identified)
+- Missing information in some fields, especially for instructions of recipes</p>
+<p>Therefore, the data sources was marked as <strong>not reliable</strong>, and an extra work was required to identify a new source and scrape recipes data from it. </p>
+<h2 id="new-data-source">New data source<a class="headerlink" href="#new-data-source" title="Permanent link">&para;</a></h2>
+<p>After reviewing several potential data sources (having fields required by the StarvApp, and without legal restrictions), a new one was found. Therefore, a <a href="https://github.com/Matech-Studios/Matech.Starvapp.RecipesRecomender.Analytics/blob/main/scripts/scraper_plasticwebs.py">scraper script was developed</a> to get datasets from there with <a href="https://github.com/Matech-Studios/Matech.Starvapp.RecipesRecomender.Analytics/blob/main/scripts/plasticwebs_config.yaml">some defined configuration</a>. Here some <strong>important limitations</strong> to know about the scraper:
+- Execution must be done manually, with a proper update of the YAML configuration mentioned
+- Paths to resulting datasets must be updated in the code as well</p>
+<p>The resulting datasets in CSV format were controlled in a new data quality check conducted in <a href="https://github.com/Matech-Studios/Matech.Starvapp.RecipesRecomender.Analytics/blob/main/notebooks/20210630_data_quality_control.ipynb">this notebook</a>, and then shared to the Backend team to a proper upload to the Database of the StarvApp. In addition, the snapshots of datasets obtained were stored in One Drive for availability.</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>This data extraction process was part of a <strong>workaround task</strong> handled after finding data issues in Spoonacular. Later work about automation of data extraction from these sources will be required in further steps.</p>
+</div>
+<p>It is important to mention that ingredients in recipes extracted from this source were not in a normalized basis as in Spoonacular, but they were in format of free text description that required to be processed and classified as described below.</p>
+<h2 id="ingredients-classification">Ingredients classification<a class="headerlink" href="#ingredients-classification" title="Permanent link">&para;</a></h2>
+<p>Given a free text description of an ingredient, the challenge is to give it a normalized name to make easier the retrieval of recipes for a query of entered ingredients. For example, if you have an ingredient with description "2 cucharadas de aceite de oliva" you expect to classify it as "Aceite de oliva". However, this is not an easy task due to the given aspects that may happen on the text:</p>
+<ul>
+<li>Information about quantity, size and units that may variate for each kind of recipe (e.g. "1 kg de ajíes morrones rojos grandes")</li>
+<li>Information about how the ingredient should be prepared (e.g. "1 cebolla mediana picada fina")</li>
+<li>Personal comments about the quality of the ingredient (e.g. "2 hojas de laurel fileteadas (mejor fresco)")</li>
+<li>Some ingredients share very similar names (e.g. "Cebolla" &amp; "Cebolla de verdeo", "Aceite" &amp; "Aceite de oliva")</li>
+<li>Some ingredients even change of name depending on the region (e.g. "Calabacin" means "Zucchini" in other countries)</li>
+</ul>
+<p>Therefore, the approach taken was to train a classifier to process a text description and tell which is the corresponding ingredient. To tackle the given complexity in the text, a <a href="https://fasttext.cc/docs/en/supervised-tutorial.html">FastText model</a> was defined due to be easy to adjust but powerful as it is a neural network designed for this purpose. The first step was to prepare a labeled dataset to train and validate the model with 2 fields per record (a text description, and a "label" indicating the expected ingredient classification), which was built as it follows:</p>
+<ol>
+<li>Label some few records (e.g. 5 per class) by manually indicating which ingredient to put for a given text description</li>
+<li>Remove those records for ingredients very specific and hard to find in usual recipes. This means that <strong>only recipes with supported ingredients will be valid in the database</strong>.</li>
+<li>Train a model and use it to classify new recors (e.g. 10 per class)</li>
+<li>Correct some mislabeled records by manually and loop until you have a bigger labeled dataset (e.g. 100 records per class)</li>
+</ol>
+<p>A labeled dataset was obtained and stored in One Drive, so then it was used to train a FastText model. A <a href="https://github.com/Matech-Studios/Matech.Starvapp.RecipesRecomender.Analytics/blob/main/starvapprecom/classifier/fasttext.py">script</a> was developed to do that, which does the following steps
+- Load labeled dataset
+- Pre-process the text descriptions (e.g. apply lowercase, remove special characters and numbers, remove words from a blacklist)
+- Split train-test sets for <a href="https://scikit-learn.org/stable/modules/cross_validation.html#cross-validation">cross-validation</a>
+- Train model with some defined parameters
+- Get results about train and test sets to validate the performance of the model</p>
+<p>Once the model was obtained, then it is ready to be used to <a href="https://github.com/Matech-Studios/Matech.Starvapp.RecipesRecomender.Analytics/blob/main/scripts/scraper_plasticwebs.py#L234">classify the extracted recipes</a> to build the database. As a result, we can have the datasets with proper fields and ingredients ready to be used for the application.</p>
+<h2 id="recommender-approach">Recommender approach<a class="headerlink" href="#recommender-approach" title="Permanent link">&para;</a></h2>
+<!-- Document the approach taken to develop the solution based on the defined requirements and knowledge about the project -->
 
-<h3 id="data-analysis">Data Analysis<a class="headerlink" href="#data-analysis" title="Permanent link">&para;</a></h3>
-<p>In order to ensure the database of recipes and ingredients as proper quality to implement the given approach, we must conduct a Data Quality Control. Check the <a href="../how-to/data_quality_control/">How-to: Data Quality Control</a> document for details.</p>
+<p>Given an input from the user with ingredients, and a database with recipes, the idea was to have a recommender system to decide the top of recipes to return with some criteria. In this project, there were two approaches explored in this order:</p>
+<ol>
+<li>Basic scores</li>
+<li>Weight ingredients</li>
+</ol>
+<p>Both of them were intended for a <a href="https://medium.com/yusp/the-cold-start-problem-for-recommender-systems-89a76505a7">"cold start"</a>, where no users history is available. Therefore, recommendations are obtained only based on the recipes information, not from users.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Following the <a href="https://en.wikipedia.org/wiki/KISS_principle">KISS principle</a>, it is suggested to always start with a very simple approach (even if it is not Machine Learning), and once it is implemented you can collect feedback and data about usage and then refine it.</p>
+</div>
+<h3 id="approach-1-basic-scores">Approach 1: Basic Scores<a class="headerlink" href="#approach-1-basic-scores" title="Permanent link">&para;</a></h3>
+<p>Based on the available data, the decision was to start with a simple approach of basic scoring, in order to accelerate integration and collect early feedback to justify the need for a more complex approach</p>
+<h4 id="idea">Idea<a class="headerlink" href="#idea" title="Permanent link">&para;</a></h4>
+<p>In this "naive" approach, the idea is to get the recipes with the best score based on the following aspects:</p>
+<ul>
+<li>Matching of ingredients entered</li>
+<li>Ratings of recipes</li>
+<li>Cooking time required</li>
+</ul>
+<p>By tuning the score functions of these aspects, as well as the way to aggregate them, we could have a very quick way to select the best recipes to recommend, in order to be able to start the integration with other services and then have the structure needed to try a better approach.</p>
+<h4 id="metrics">Metrics<a class="headerlink" href="#metrics" title="Permanent link">&para;</a></h4>
+<p>In order to assess if a set of recommended recipes is appropriate for a set of entered ingredients, these are the aspects to be evaluated:</p>
+<ul>
+<li>Quality of matched ingredients, by checking average matching ratio of ingredients &gt; 0.5 </li>
+<li>Popularity of recipes, by checking average rating &gt; 4.0</li>
+<li>Complexity of recipes, by checking average cooking time &lt; 60</li>
+</ul>
+<p>The problem of this approach is that it does not take into account some concept of relevancy on ingredients involved in a recommended recipe. So, as a result, some "not common" recipes may be selected when having few matches of ingredients for a given input, and that was a not desired aspect that was analyzed to propose a new solution.</p>
+<p>More details about approach in <a href="https://github.com/Matech-Studios/starvapp_recipes_recommender/blob/main/notebooks/20201228_basic_approach_scores.ipynb">this Jupyter notebook</a>.</p>
+<h3 id="approach-2-weight-ingredients">Approach 2: Weight Ingredients<a class="headerlink" href="#approach-2-weight-ingredients" title="Permanent link">&para;</a></h3>
+<p>To tackle the problem of recommendations with not common ingredients when there are few matched ingredients, a new approach was analyzed to "weight" ingredients to achieve a selection of "feasible" recipes on the recommendations delivered.</p>
+<h4 id="idea_1">Idea<a class="headerlink" href="#idea_1" title="Permanent link">&para;</a></h4>
+<p>Given that context, we could compute some "weights" for the given ingredients on the database, where the idea is to express in a score with range [0, 1] how "common" is an ingredient. Therefore, the recommendations that will select additional ingredients that are not part of the input, could prefer "common" ingredients to be recommended instead of "not common" ones. </p>
+<p>So, through an analysis on the data available, ingredients were processed to get frecuency and scale it into a range of [0,1] with a logarithmic scale. The result was saved into a <a href="https://github.com/Matech-Studios/Matech.Starvapp.RecipesRecomender.Analytics/blob/main/data/ingredients_metadata.yml">YAML file</a>, and the approach implemented was simply recommend recipes that:
+- Are prone to contain the input ingredients (with high score)
+- Are prone to contain "common" ingredients (with the explained score)</p>
 <div class="admonition info">
 <p class="admonition-title">Info</p>
-<p>To be filled soon...</p>
+<p>Notice that the YAML file indicates which is the list of supported ingredients, and the relevance they have in the given database.</p>
 </div>
-<h3 id="modeling">Modeling<a class="headerlink" href="#modeling" title="Permanent link">&para;</a></h3>
-<p>Scoring recipes based on:
-- ...
-- ...</p>
-<div class="admonition info">
-<p class="admonition-title">Info</p>
-<p>To be filled soon...</p>
-</div>
-<h3 id="service">Service<a class="headerlink" href="#service" title="Permanent link">&para;</a></h3>
-<p>A script is provided, which runs a consumer connected to RabbitMQ with aio-pika. </p>
-<p>Using asyncio library to have asynchronous behavior</p>
-<div class="admonition info">
-<p class="admonition-title">Info</p>
-<p>To be filled soon...</p>
-</div>
+<p>Finally, <strong>this was the approach selected to go production</strong>.</p>
+<h2 id="service-development">Service development<a class="headerlink" href="#service-development" title="Permanent link">&para;</a></h2>
+<p>Once the recommendation approach was defined and developed, the final step is to develop and deploy a service that receives requests from the StarvApp with input of users and returns recipes recommendations. Therefore, a <a href="https://github.com/Matech-Studios/Matech.Starvapp.RecipesRecomender.Analytics/blob/main/scripts/service.py">script</a> was developed with <a href="https://docs.python.org/3/library/asyncio.html">asyncio</a> to do the following steps:</p>
+<ol>
+<li>Set an asynchronous connection to an existing RabbitMQ queue with <a href="https://aio-pika.readthedocs.io/en/latest/">aio-pika</a> </li>
+<li>When a message is received, the service calls the function to process the input ingredients and return the recommended recipes</li>
+<li>A response is delivered with the recommendations, on the same RabbitMQ queue. </li>
+</ol>
+<p>For more details about the integration between services in the application, check the architecture shown in <a href="../2_preparation">Chapter 2</a>.</p>
+<p>To test the service before the deployment, another <a href="https://github.com/Matech-Studios/Matech.Starvapp.RecipesRecomender.Analytics/blob/main/scripts/task_random_recipes.py">script</a> was developed to emulate requests with a random input to ensure the service will respond correctly.</p>
+<p>To deploy this service, a <a href="https://github.com/Matech-Studios/Matech.Starvapp.RecipesRecomender.Analytics/blob/main/Dockerfile">Dockerfile</a> was developed to install the system and run the service as entrypoint. At the same time, another <a href="https://github.com/Matech-Studios/Matech.Starvapp.RecipesRecomender.Analytics/blob/main/Dockerfile_rabbitmq">Dockerfile</a> was defined to also run the RabbitMQ service for the application. Notice that both services are managed by the DevOps team in their given infrastructure.</p>
 <h2 id="testing">Testing<a class="headerlink" href="#testing" title="Permanent link">&para;</a></h2>
 <!-- Describe the implemented tests for the solution -->
 
-<p>Unit testing for the score functions implemented</p>
-<p>The integration tests are performed with the backend</p>
+<p>For this solution, there where two types of testing implemented:</p>
+<ul>
+<li><strong>Unit testing:</strong> To validate each module or block of code on the <a href="https://github.com/Matech-Studios/Matech.Starvapp.RecipesRecomender.Analytics/tree/main/starvapprecom">starvapprecom</a> package mostly for code coverage purposes, which are implemented as <a href="https://github.com/Matech-Studios/Matech.Starvapp.RecipesRecomender.Analytics/tree/main/tests/unit">simple functions</a> executed by <code>pytest</code>.</li>
+<li><strong>System testing:</strong> To validate some <em>functional</em> <a href="https://github.com/Matech-Studios/Matech.Starvapp.RecipesRecomender.Analytics/blob/main/tests/system/test_scenarios_approaches_weight_ingredients.py">tests</a>, as checks over the recommender with a dataset regarding some specific <a href="https://github.com/Matech-Studios/Matech.Starvapp.RecipesRecomender.Analytics/blob/main/tests/system/scenarios.yml">scenarios</a>, each of them having <a href="https://github.com/Matech-Studios/Matech.Starvapp.RecipesRecomender.Analytics/blob/main/tests/system/checks.py">corresponding checks</a>.</li>
+</ul>
 <div class="admonition info">
 <p class="admonition-title">Info</p>
-<p>To be filled soon...</p>
+<p>To run the system tests, a dataset must be available and with a configured valid path</p>
 </div>
 <h2 id="deployment">Deployment<a class="headerlink" href="#deployment" title="Permanent link">&para;</a></h2>
 <!-- Document the work done to deploy the implemented solution in a testing environment for testing purposes -->
 
-<p>DevOps team configured an Azure pipeline.. We provided one Dockerfile for the Analytics service, and one for the RabbitMQ service.</p>
-<div class="admonition info">
-<p class="admonition-title">Info</p>
-<p>To be filled soon...</p>
-</div>
+<p>The StarvApp has a Continuous Integration (CI) pipeline configured in terms of <a href="https://github.com/Matech-Studios/Matech.Starvapp.RecipesRecomender.Analytics/blob/main/azure_pipelines.yml">Azure pipelines</a> and handled by the DevOps team, so the CI is already managed in this work and the files explained in the Environment section are the contract to ensure correct integration. However, additionally a <a href="https://github.com/Matech-Studios/Matech.Starvapp.RecipesRecomender.Analytics/blob/main/.github/workflows/ci_pipeline.yml">Github Actions workflow</a> was configured for this repository to make the following checks:</p>
+<ul>
+<li>Smoke testing based on configured tests </li>
+<li>Code coverage along the releases</li>
+<li>Correct linting  </li>
+</ul>
+<p>You can check the configuration and current status in the <a href="https://github.com/Matech-Studios/Matech.Starvapp.RecipesRecomender.Analytics/blob/main/README.md">project's README</a>.</p>
                 
               
               
@@ -586,6 +701,7 @@
         
           <a href="#" class="md-top md-icon" data-md-component="top" data-md-state="hidden">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"/></svg>
+            Back to top
           </a>
         
       </main>
@@ -595,7 +711,8 @@
   
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
-        <a href="../2_preparation/" class="md-footer__link md-footer__link--prev" rel="prev">
+        
+        <a href="../2_preparation/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Chapter 2: Preparation" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -610,7 +727,8 @@
         </a>
       
       
-        <a href="../4_acceptance/" class="md-footer__link md-footer__link--next" rel="next">
+        
+        <a href="../4_acceptance/" class="md-footer__link md-footer__link--next" aria-label="Next: Chapter 4: Acceptance" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
@@ -662,10 +780,10 @@
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.tabs", "navigation.top", "toc.integrate"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../assets/javascripts/workers/search.fe42c31b.min.js", "version": {"provider": "mike"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.tabs", "navigation.top", "toc.integrate"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../assets/javascripts/workers/search.409db549.min.js", "version": {"provider": "mike"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.4ea5477f.min.js"></script>
+      <script src="../assets/javascripts/bundle.56a63758.min.js"></script>
       
     
   </body>
